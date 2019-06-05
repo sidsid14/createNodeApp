@@ -24,12 +24,8 @@ Run the app -> ```node server.js```
 ## Output
 ```bash
 $ node server.js
-[INFO]  on  Wed, 05 Jun 2019 06:58:37 GMT  at  Server.app.listen (E:\Learning\projects\nodeapp\server.js:14:12) 
-Object0:  Example app listening on port 8000
-[DEBUG]  on  Wed, 05 Jun 2019 06:58:43 GMT  at  app.get (E:\Learning\projects\nodeapp\server.js:6:12) 
-Object0:  This is info
-[ERROR]  on  Wed, 05 Jun 2019 06:58:43 GMT  at  app.get (E:\Learning\projects\nodeapp\server.js:7:12) 
-Object0:  This is an error
-[WARN]  on  Wed, 05 Jun 2019 06:58:43 GMT  at  app.get (E:\Learning\projects\nodeapp\server.js:8:12) 
-Object0:  This is warning
+[INFO] Example app listening on port 8000 at Server.app.listen (E:\Learning\projects\nodeapp\server.js:14:12) 
+[DEBUG] This is debug at app.get (E:\Learning\projects\nodeapp\server.js:6:12) 
+[ERROR] This is an error at app.get (E:\Learning\projects\nodeapp\server.js:7:12) 
+[WARN] This is warning at app.get (E:\Learning\projects\nodeapp\server.js:8:12) 
 ```

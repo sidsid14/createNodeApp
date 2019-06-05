@@ -3,7 +3,7 @@ const app = express();
 const logger = require('logat');
 
 app.get('/', (req, res) => {
-    logger.debug('This is info');
+    logger.debug('This is debug');
     logger.error('This is an error');
     logger.warn('This is warning');
     res.send('Hello World!');
